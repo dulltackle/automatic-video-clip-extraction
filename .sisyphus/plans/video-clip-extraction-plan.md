@@ -98,7 +98,7 @@ video-clip-extractor diagnose  # 系统诊断
 | **Must have**  | P0   | Phase 6: 打包发布     | 多平台构建、代码签名、自动更新         | v1.0    | 发布能力     |
 | **Could have** | P2   | Phase 7: 性能优化     | 并行处理、缓存策略优化                 | v1.1+   | 体验优化     |
 | **Could have** | P2   | Phase 7: 可观测性     | 错误分类、结构化日志、诊断工具         | v1.1+   | 运维友好     |
-| **Could have** | P2   | 扩展功能              | 说话人识别、内容去重                   | v2.0+   | 高级AI能力   |
+| **Could have** | P3   | 扩展功能              | 说话人识别、内容去重                   | v2.0+   | 高级AI能力   |
 
 ---
 
@@ -1344,24 +1344,3 @@ video-clip-extractor diagnose  # 系统诊断
 - [ ] 无高危安全漏洞
 - [ ] 文档完整（README, API, 使用指南）
 - [ ] 可安装运行（npm install && npm start）
-
----
-
-## 附录
-
-### A. 推荐技术资源
-
-#### 学习资源
-
-- **LangChain 官方文档**: https://js.langchain.com/
-- **FFmpeg 文档**: https://ffmpeg.org/documentation.html
-- **Electron 文档**: https://www.electronjs.org/docs
-
-#### 参考项目
-
-- **LangChain 示例**: https://github.com/langchain-ai/langchainjs/tree/main/examples
-- **Electron Vite 模板**: https://github.com/electron-vite/electron-vite-react
-
-**文档生成时间**: 2026-02-03
-**文档版本**: 1.0.0-draft
-**作者**: AI Assistant
