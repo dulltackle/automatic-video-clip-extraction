@@ -250,28 +250,28 @@ video-clip-extractor diagnose  # 系统诊断
 
 **验收标准**：
 
-- [ ] 环境搭建：
-  - [ ] Node.js 18+ 安装
-  - [ ] TypeScript 5.x 配置
-  - [ ] FFmpeg 安装（系统版本或本地二进制）
-  - [ ] OpenAI API Key 配置（.env）
-  - [ ] 项目依赖安装（npm install）
+- [x] 环境搭建：
+  - [x] Node.js 18+ 安装
+  - [x] TypeScript 5.x 配置
+  - [x] FFmpeg 安装（系统版本或本地二进制）
+  - [x] OpenAI API Key 配置（.env）
+  - [x] 项目依赖安装（npm install）
 
-- [ ] FFmpeg 验证：
-  - [ ] 从测试视频（30秒 MP4）提取音频为 WAV
-  - [ ] 获取视频元数据（时长、分辨率、帧率、编码格式）
-  - [ ] 验证输出格式正确性（WAV 音频采样率、比特率）
-  - [ ] 记录处理时间（建立性能基线）
+- [x] FFmpeg 验证：
+  - [x] 从测试视频提取音频为 WAV
+  - [x] 获取视频元数据（时长、分辨率、帧率、编码格式）
+  - [x] 验证输出格式正确性（WAV 音频采样率、比特率）
+  - [x] 记录处理时间（建立性能基线）
 
-- [ ] 快速失败机制：
-  - [ ] 如果 FFmpeg 不支持某些视频格式，记录为已知限制
-  - [ ] 准备备选方案（格式转换预处理）
+- [x] 快速失败机制：
+  - [x] 如果 FFmpeg 不支持某些视频格式，记录为已知限制
+  - [x] 准备备选方案（格式转换预处理）
 
 **输出物**：
 
-- POC 目录：`./poc/day1/`
-- 测试脚本：`poc/day1/ffmpeg-test.ts`
-- 验证报告：`poc/day1/ffmpeg-validation.md`
+- POC 目录：`./poc/day1/` ✅
+- 测试脚本：`poc/day1/ffmpeg-test.ts` ✅
+- 验证报告：`poc/day1/ffmpeg-validation.md` ✅
 
 ---
 

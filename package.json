@@ -1,0 +1,31 @@
+{
+  "name": "video-clip-extraction",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "AI-powered intelligent lecture video clip extraction system",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx *.ts",
+    "validate": "tsx poc/day1/ffmpeg-test.ts"
+  },
+  "keywords": [
+    "video",
+    "ai",
+    "ffmpeg",
+    "whisper",
+    "langchain",
+    "electron"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.28",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
